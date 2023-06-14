@@ -24,12 +24,11 @@ if (number >= 2) {
 
 */
 
-
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set to the the string 'Dane'. 
+// We check if the variable name is strictly equal to the string 'Mary'.
+// Name variable is not equal to 'Mary', so
+// We console.log 'How do you do?'.
 
 //CODE
 /*
@@ -41,14 +40,15 @@ if (name === 'Mary') {
   console.log('How do you do?');
 }
 
-
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make an undefined variable called secret. 
+// We make a variable called code and set it to the number 123.
+// We check if the variable code is strictly equal to the number 123. 
+// The variable code is equal to 123 so we define the variable secret to the string 'super'.
+// The variable code is then multiple by 2. 
+// We cosole.log 'super'.
 
 //CODE
 /*
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called isStudent snad set it to the boolean true. 
+// We make a variable called age and set it to the number 34. 
+// We make a variable called zip and set it to the number 55407. 
+// We check if the variable isStudent is true and if the zip variable is greater than 80,000. It is not. 
+// We console.log 'Welcome to Prime!'.
 
 //CODE
 /*
@@ -131,11 +132,14 @@ if (number >= 2) {
 
 /*
 let colorOne = 'red';
+// FIX - colorOne is defined as 'blue'.
 let colorTwo = 'blue';
+// FIX - colorTwo is defined as 'red'.
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+// FIX - this true should make both colorOne and colorTwo (&&) defined as 'purple'.
 }
 */
 
@@ -148,6 +152,7 @@ let temp = 40;
 const time = 4;
 
 if (temp > 39 || time >= 4) {
+// FIX - the pipes need to be corrected to &&. 
   console.log('throw away the food!');
 }
 */
@@ -161,9 +166,12 @@ let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
+// FIX - it should be age >= minAge
   console.log('no entry');
+// FIX - since this is true, it should be console.log('enter').
 } else {
   console.log('enter');
+FIX - it should be console.log('no entry'). 
 }
 */
 
